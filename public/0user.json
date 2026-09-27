@@ -1,50 +1,43 @@
 {
-    "name": "John Doe",
-    "role": "Software Engineer",
+    "name": "Till Hummel",
+    "role": "Software Developer",
     "home": {
-        "bio": "Generalist software engineer focused on building reliable, maintainable systems — equally comfortable across the frontend, backend, and infrastructure layers.",
-        "note": "Thanks for visiting! This is a demo site with placeholder content."
+        "bio": "Software Developer for Java applications with experience in web apps, APIs, databases and other languages.",
+        "note": "Check out my private projects!"
     },
     "site": {
-        "name": "example.com",
-        "url": "https://example.com",
-        "title": "John Doe - Software Engineer",
+        "name": "theunknownlarry.de",
+        "url": "https://theunknownlarry.de",
+        "title": "Till Hummel - Software Developer",
         "description": "Software engineer specializing in web applications, APIs, and cloud infrastructure",
-        "locale": "en_US",
+        "locale": "de_DE",
         "ogImage": ""
     },
     "contacts": [
         {
             "label": "email",
-            "text": "john.doe@example.com",
-            "href": "mailto:john.doe@example.com"
+            "text": "hummel.till@web.de",
+            "href": "mailto:hummel.till@web.de"
         },
         {
             "label": "github",
-            "text": "@johndoe",
-            "href": "https://github.com/johndoe",
-            "target": "_blank",
-            "rel": "noopener noreferrer"
-        },
-        {
-            "label": "twitter",
-            "text": "@johndoe",
-            "href": "https://x.com/johndoe",
+            "text": "@TheUnknownLarry",
+            "href": "https://github.com/TheUnknownLarry",
             "target": "_blank",
             "rel": "noopener noreferrer"
         },
         {
             "label": "discord",
-            "text": "@johndoe",
-            "href": "https://discord.com/users/000000000000000000",
+            "text": "@theunknownlarry",
+            "href": "https://discord.com/invite/aHNpSxrUVe",
             "target": "_blank",
             "rel": "noopener noreferrer"
         }
     ],
     "resume": {
-        "name": "John Doe",
-        "role": "Software Engineer",
-        "bio": "Software engineer with a broad background across web applications, APIs, databases, and cloud infrastructure. Focused on clean architecture, automation, and shipping reliable software.",
+        "name": "Till Hummel",
+        "role": "Junior Software Developer",
+        "bio": "Software developer with a background across java applications, APIs, databases and web apps",
         "downloads": {
             "cv": {
                 "label": "download cv",
@@ -62,23 +55,23 @@
         "pgpFingerprint": "AAAA AAAA AAAA AAAA AAAA AAAA AAAA",
         "experience": [
             {
-                "role": "Senior Software Engineer",
-                "company": "Example Company",
-                "period": "2023 — Present",
+                "role": "Junior Software Developer",
+                "company": "INNOSYSTEC GmbH",
+                "period": "Oct 2024 — Present",
                 "description": [
-                    "Led feature development for a large-scale web application, improving reliability and performance.",
-                    "Designed and maintained internal tooling, CI pipelines, and automated testing strategies.",
-                    "Mentored junior engineers and drove code review and architecture discussions."
+                    "Contributing to the development of a big data management application using java.",
+                    "Taking care of the internal test servers for our software developers.",
+                    "Upgraded the deployment process with the automation tool."
                 ]
             },
             {
-                "role": "Software Engineer",
-                "company": "Example Company",
-                "period": "2021 — 2023",
+                "role": "Computer Science Student",
+                "company": "INNOSYSTEC GmbH",
+                "period": "Oct 2021 — Sep 2024",
                 "description": [
-                    "Built and shipped REST and GraphQL APIs backed by relational and NoSQL databases.",
-                    "Deployed and operated services on cloud infrastructure with monitoring and alerting.",
-                    "Collaborated across teams to plan and deliver multi-quarter product initiatives."
+                    "Built and shipped java swing application, which simulates communication based on bytewise protocols.",
+                    "Created a flutter/spring web application to manage tennis courts.",
+                    "Analysed the current deployment process and built a tool automating deploying to test environments."
                 ]
             }
         ],
@@ -86,52 +79,44 @@
             {
                 "category": "Languages",
                 "items": [
+                    "Java",
+                    "Python",
                     "TypeScript",
                     "JavaScript",
-                    "Python",
-                    "Go",
-                    "SQL",
-                    "Bash"
+                    "SQL"
                 ]
             },
             {
                 "category": "Frameworks & Libraries",
                 "items": [
                     "React",
-                    "Node.js",
-                    "Express",
-                    "Astro",
-                    "Prisma",
-                    "Tailwind CSS"
+                    "Spring",
+                    "Spring Boot",
+                    "Flutter",
+                    "Bootstrap"
                 ]
             },
             {
                 "category": "Infrastructure",
                 "items": [
                     "Docker",
-                    "Kubernetes",
-                    "AWS",
-                    "GCP",
-                    "Terraform",
                     "CI/CD"
                 ]
             },
             {
                 "category": "Practices",
                 "items": [
-                    "Testing",
+                    "QS & QA",
                     "Code Review",
-                    "Agile",
-                    "Observability",
-                    "Security Awareness"
+                    "Observability"
                 ]
             }
         ],
         "education": [
             {
                 "degree": "B.S. in Computer Science",
-                "institution": "Example University",
-                "period": "2017 — 2021"
+                "institution": "DHBW Ravensburg",
+                "period": "Oct 2021 — Sep 2024"
             }
         ]
     }

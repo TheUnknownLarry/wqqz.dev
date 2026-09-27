@@ -70,7 +70,7 @@ function PostItem({ post }: { post: Post }) {
       <div className="flex items-start justify-between gap-6 sm:gap-8">
         <div className="flex-1 min-w-0">
           <h3 className="text-lg sm:text-xl font-bold tracking-tight text-foreground group-hover:text-primary transition-colors text-balance">
-            <a href={`/archives/${post.slug}`} className="hover:text-primary">
+            <a href={`/projects/${post.slug}`} className="hover:text-primary">
               {post.title}
             </a>
           </h3>
@@ -125,10 +125,10 @@ export default function ArchiveList({ posts = [], initialQuery = '', tags }: Arc
     <div className="max-w-3xl mx-auto">
       <div className="mb-10">
         <div className="max-w-md">
-          <SearchBar 
-            value={query || ''} 
-            onChange={setQuery} 
-            placeholder="Search articles..." 
+          <SearchBar
+            value={query || ''}
+            onChange={setQuery}
+            placeholder="Search updates..."
             posts={posts}
           />
         </div>
@@ -152,7 +152,7 @@ export default function ArchiveList({ posts = [], initialQuery = '', tags }: Arc
 
       {safePosts.length === 0 ? (
         <div className="text-center text-muted-foreground py-12" aria-live="polite" role="status">
-          No matching articles found.
+          No matching updates found.
         </div>
       ) : (
         <div className="space-y-10 sm:space-y-12">

@@ -141,8 +141,8 @@ export default function SearchOverlay({
               setQuery(next)
               onQueryChange?.(next)
             }}
-            placeholder="Search articles..."
-            aria-label="Search articles"
+            placeholder="Search updates..."
+            aria-label="Search updates"
             className="w-full bg-transparent py-3.5 text-sm text-foreground outline-none placeholder:text-muted-foreground/70"
           />
           <Kbd>esc</Kbd>
@@ -151,7 +151,7 @@ export default function SearchOverlay({
         <div ref={listRef} className="max-h-[46vh] overflow-y-auto py-1.5">
           {results.length === 0 ? (
             <div className="px-4 py-12 text-center text-sm text-muted-foreground" aria-live="polite">
-              No matching articles found{query.trim() ? ` for "${query.trim()}"` : ''}.
+              No matching updates found{query.trim() ? ` for "${query.trim()}"` : ''}.
             </div>
           ) : (
             results.map((post, idx) => {
@@ -159,7 +159,7 @@ export default function SearchOverlay({
               return (
                 <a
                   key={post.slug}
-                  href={`/archives/${post.slug}`}
+                  href={`/projects/${post.slug}`}
                   data-active={active ? 'true' : undefined}
                   onMouseEnter={() => setActiveIndex(idx)}
                   onClick={() => onSelect(post)}
